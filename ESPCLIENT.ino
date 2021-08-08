@@ -5,7 +5,7 @@
 uint8_t broadcastAddress[] = {0x3C, 0x61, 0x05, 0xE3, 0x66, 0x1F}; 
 
 // Set your Board ID (ESP32 Sender #1 = BOARD_ID 1, ESP32 Sender #2 = BOARD_ID 2, etc) 
-#define BOARD_ID 4
+#define BOARD_ID 3
 
 // Structure example to send data
 // Must match the receiver structure
