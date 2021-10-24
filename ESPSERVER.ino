@@ -8,14 +8,14 @@
 #include <PubSubClient.h>
 
 
-const char* ssid     = "TP-Link_C11F";
-const char* password = "12746798";
+const char* ssid     = "YOUR_AP_SSID";
+const char* password = "YOUR_AP_PWD";
 
-const char* mqttServer = "61.58.248.108";
+const char* mqttServer = "MQTT_HOST";
 const int mqttPort = 1883;
-const char* mqttUser = "Gym_mqtt";
-const char* mqttPassword = "!zxc123zxc";
- const char* topic = "gym/data";
+const char* mqttUser = "MQTT_USER";
+const char* mqttPassword = "MQTT_PWD";
+ const char* topic = "MQTT_TOPIC";
 WiFiClient espClient;
 PubSubClient client(espClient);
 void callback(char* topic, byte* payload, unsigned int length) {
